@@ -1,12 +1,12 @@
 {
-  "n_days": 59,
+  "n_days": 60,
   "walls": {
     "1": {
-      "toques": 106,
-      "rejeitou": 54,
-      "rompeu": 51,
+      "toques": 109,
+      "rejeitou": 55,
+      "rompeu": 53,
       "neutro": 1,
-      "taxa_rejeicao": 0.514
+      "taxa_rejeicao": 0.509
     },
     "2": {
       "toques": 53,
@@ -24,20 +24,20 @@
     }
   },
   "bands": {
-    "days": 59,
+    "days": 60,
     "inside": 33,
-    "taxa_dentro": 0.559
+    "taxa_dentro": 0.55
   },
   "poc": {
-    "days": 57,
+    "days": 58,
     "touched": 37,
-    "taxa_ima": 0.649
+    "taxa_ima": 0.638
   },
   "va": {
     "open_inside": 24,
     "taxa_rotacao": 0.375,
-    "open_outside": 33,
-    "taxa_tendencia": 0.727
+    "open_outside": 34,
+    "taxa_tendencia": 0.735
   },
   "flip": {
     "crosses": 7,
@@ -59,11 +59,11 @@
       "taxa_rejeicao": 0.64
     },
     "comprador": {
-      "toques": 82,
-      "rejeitou": 45,
-      "rompeu": 36,
+      "toques": 85,
+      "rejeitou": 46,
+      "rompeu": 38,
       "neutro": 1,
-      "taxa_rejeicao": 0.556
+      "taxa_rejeicao": 0.548
     },
     "vendedor": {
       "toques": 101,
@@ -90,19 +90,19 @@
       "taxa_fechou": 0.8
     },
     "acima_1500": {
-      "n": 6,
+      "n": 7,
       "fechou": 2,
-      "taxa_fechou": 0.333
+      "taxa_fechou": 0.286
     }
   },
   "hourly": {
     "9": {
-      "toques": 105,
+      "toques": 107,
       "rejeitou": 64,
-      "rompeu": 41,
+      "rompeu": 43,
       "neutro": 0,
-      "taxa_rejeicao": 0.61,
-      "vol_pct": 17.5
+      "taxa_rejeicao": 0.598,
+      "vol_pct": 17.6
     },
     "10": {
       "toques": 37,
@@ -121,11 +121,11 @@
       "vol_pct": 15.7
     },
     "12": {
-      "toques": 11,
-      "rejeitou": 4,
+      "toques": 12,
+      "rejeitou": 5,
       "rompeu": 7,
       "neutro": 0,
-      "taxa_rejeicao": 0.364,
+      "taxa_rejeicao": 0.417,
       "vol_pct": 9.8
     },
     "13": {
@@ -178,5 +178,5 @@
     }
   },
   "desde": "2026-06-16",
-  "ate": "2026-09-11"
+  "ate": "2026-09-14"
 }
