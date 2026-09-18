@@ -1,0 +1,77 @@
+{
+ "v": 2,
+ "session": "2026-09-17",
+ "open": 188410.0,
+ "high": 189085.0,
+ "low": 184465.0,
+ "close": 188280.0,
+ "regime": null,
+ "fluxo": "comprador",
+ "vol_h": {
+  "9": 2850059,
+  "10": 5182030,
+  "11": 2806158,
+  "12": 1967829,
+  "13": 1379697,
+  "14": 1053644,
+  "15": 1014545,
+  "16": 1136167,
+  "17": 509869,
+  "18": 171678
+ },
+ "walls": [
+  {
+   "outcome": "rejeitou",
+   "side": "acima",
+   "mfe": 439.8,
+   "hora": 1043,
+   "width": 1,
+   "level": 184665.158
+  },
+  {
+   "outcome": "rejeitou",
+   "side": "acima",
+   "mfe": 500.7,
+   "hora": 1036,
+   "width": 1,
+   "level": 185674.257
+  },
+  {
+   "outcome": "rompeu",
+   "side": "acima",
+   "mfe": 686.6,
+   "hora": 1032,
+   "width": 2,
+   "level": 186683.357
+  },
+  {
+   "outcome": "rejeitou",
+   "side": "acima",
+   "mfe": 432.5,
+   "hora": 1000,
+   "width": 1,
+   "level": 187692.456
+  },
+  {
+   "outcome": "rejeitou",
+   "side": "abaixo",
+   "mfe": 526.6,
+   "hora": 902,
+   "width": 2,
+   "level": 188701.555
+  }
+ ],
+ "bands": {
+  "inside": true,
+  "broke_up": false,
+  "broke_down": false
+ },
+ "flip": null,
+ "poc": {
+  "touched": true
+ },
+ "va": {
+  "open_inside": false,
+  "close_inside": false
+ }
+}
