@@ -1,0 +1,47 @@
+var
+  clWall : integer;
+  clMidWall : integer;
+  clFlip : integer;
+  clMaxGamma : integer;
+  clMinGamma : integer;
+  clBanda : integer;
+  clPoc : integer;
+  clVA : integer;
+
+BEGIN
+  clWall := clLime;
+  clMidWall := clGray;
+  clFlip := clYellow;
+  clMaxGamma := clGreen;
+  clMinGamma := clRed;
+  clBanda := clAqua;
+  clPoc := clFuchsia;
+  clVA := clSilver;
+
+  if ((Date = ELDate(2026, 10, 26)) and ((GetAsset() = "WINFUT") or (GetAsset() = "INDFUT") or (GetAsset() = "WINZ26") or (GetAsset() = "INDZ26"))) then
+    begin
+      HorizontalLineCustom(205010.898, clWall, 1, psSolid, "WALL * 205.011", 10, tpTopRight);
+      HorizontalLineCustom(206030.853, clWall, 1, psSolid, "WALL * 206.031", 10, tpTopRight);
+      HorizontalLineCustom(207050.807, clWall, 2, psSolid, "WALL ** 207.051", 10, tpTopRight);
+      HorizontalLineCustom(208070.762, clWall, 1, psSolid, "WALL * 208.071", 10, tpTopRight);
+      HorizontalLineCustom(209090.717, clWall, 3, psSolid, "WALL *** 209.091", 10, tpTopRight);
+      HorizontalLineCustom(210110.671, clWall, 1, psSolid, "WALL * 210.111", 10, tpTopRight);
+      HorizontalLineCustom(211130.626, clWall, 1, psSolid, "WALL * 211.131", 10, tpTopRight);
+      HorizontalLineCustom(212150.581, clWall, 2, psSolid, "WALL ** 212.151", 10, tpTopRight);
+      HorizontalLineCustom(205520.875, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(206540.830, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(207560.785, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(208580.739, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(209600.694, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(210620.649, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(211640.604, clMidWall, 1, psSolid, "mid", 8, tpTopRight);
+      HorizontalLineCustom(227454.953, clMaxGamma, 3, psSolid, "MAX GAMMA 227.455", 10, tpTopRight);
+      HorizontalLineCustom(183465.040, clMinGamma, 3, psSolid, "MIN GAMMA 183.465", 10, tpTopRight);
+      HorizontalLineCustom(185984.787, clFlip, 2, psSolid, "GAMMA FLIP 185.985", 10, tpTopRight);
+      HorizontalLineCustom(218990.574, clBanda, 1, psDash, "BANDA +1DP 218.991", 10, tpTopRight);
+      HorizontalLineCustom(197975.426, clBanda, 1, psDash, "BANDA -1DP 197.975", 10, tpTopRight);
+      HorizontalLineCustom(207675.000, clPoc, 2, psSolid, "POC 207.675", 10, tpTopRight);
+      HorizontalLineCustom(208295.000, clVA, 3, psDash, "VAH 208.295", 10, tpTopRight);
+      HorizontalLineCustom(207070.000, clVA, 3, psDash, "VAL 207.070", 10, tpTopRight);
+    end;
+END;
